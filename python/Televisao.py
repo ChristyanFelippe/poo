@@ -21,3 +21,18 @@ print(t1.ano)
 
 t1.aumenta_canal()
 print(t1.n_canais)
+
+for i in range(6):
+    t1.diminui_canal()
+    
+print(t1.n_canais)
+
+print(t1)
+
+tv_nova = t1
+print(tv_nova)
+
+
+tv_nova = None
+
+print(tv_nova)
